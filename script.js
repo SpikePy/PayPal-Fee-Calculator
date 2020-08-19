@@ -1,4 +1,3 @@
-// bmi = weight[kg] / size[m]²
 fee_fix = 0.35
 fee_var = 0.0249
 
