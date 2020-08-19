@@ -34,3 +34,6 @@ input {
 input:hover {
     background-color: rgb(220, 220, 220);
 }
+input:disabled {
+    pointer-events: none
+}
