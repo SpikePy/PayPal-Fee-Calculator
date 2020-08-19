@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PayPal-Fee-Calculator</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1><img src="favicon.svg">PayPal-Fee-Calculator</h1>
+
+  <form>
+    <table>
+      <tr>
+        <td>Send</td>
+        <td><input type="number" step="1" size="3" id="input_send" oninput="js_send()"></td>
+        <td><unit>€</unit></td>
+      </tr>
+      <tr>
+        <td>Fee</td>
+        <td><input type="number" step="1" size="3" id="input_fee" disabled></td>
+        <td><unit>€</unit></td>
+      </tr>
+      <tr>
+        <td>Receive</td>
+        <td><input type="number" step="1" size="3" id="input_receive" oninput="js_receive()"></td>
+        <td><unit>€</unit></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
